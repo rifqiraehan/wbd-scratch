@@ -13,3 +13,6 @@ menjadi,
 
 ### Untuk /percobaan
 - Sesuaikan hasil percobaan dengan membuka dan menutup komentar (ctrl + /)
+
+Hasil tugas bisa dilihat di link berikut:
+[Tugas](https://rifqiraehan-db.000webhostapp.com/P2-tugas/siswa)
