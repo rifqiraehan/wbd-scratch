@@ -5,11 +5,11 @@
 // fclose($myfile);
 
 // Membuat file
-$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-$twt = "Politeknik Elektronika Negeri Surabaya, ";
-fwrite($myfile, $twt);
-$twt = "Kampus PENS, Sukolilo, Surabaya 60111";
-fwrite($myfile, $twt);
-fclose($myfile);
+// $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+// $twt = "Politeknik Elektronika Negeri Surabaya, ";
+// fwrite($myfile, $twt);
+// $twt = "Kampus PENS, Sukolilo, Surabaya 60111";
+// fwrite($myfile, $twt);
+// fclose($myfile);
 
 ?>
