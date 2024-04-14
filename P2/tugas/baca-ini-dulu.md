@@ -1,6 +1,6 @@
 
 ### Requirement Wajib
-- Sesuaikan struktur folder P2 sesuai struktur pada repository, jadi ambil semua folder dan file kecuali file `baak_pens_with_not_null_field.sql` dan file ini `baca-ini-dulu.md`
+- Sesuaikan struktur folder P2 sesuai struktur pada repository, jadi ambil semua folder dan file kecuali file `baak_pens_with_not_null_field.sql` dan file ini `baca-ini-dulu.md`. Lalu, samakan juga penamaan filenya.
 
 ### Database Requirements
 - buat database baru dengan nama `baak_pens_2`
