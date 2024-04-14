@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .img {
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid #0000ff;
+            height: auto;
+            width: auto;
+            float: left;
+            text-align: center;
+        }
+
+        .img img {
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid #ffffff;
+            width: 110px;
+            height: 110px;
+        }
+
+        .img a:hover img {
+            border: 1px solid #0000ff;
+        }
+
+        .desc {
+            text-align: center;
+            font-weight: normal;
+            width: 120px;
+            margin: 5px;
+        }
+
+        .border {
+            border: 2px solid #a1a1a1;
+            padding: 10px 40px;
+            background: #dddddd;
+            width: 300px;
+            border-radius: 25px;
+            margin-top: 15rem;
+            display: block;
+        }
+
+        .second-border {
+            border: 15px solid transparent;
+            width: 250px;
+            padding: 10px 20px;
+        }
+
+        #round {
+            -webkit-border-image: url(img/border.png) 30 30 round;
+            /* Safari 3.1 */
+            -o-border-image: url(img/border.png) 30 30 round;
+            /* Opera 11 */
+            border-image: url(img/border.png) 30 30 round;
+        }
+
+        #stretch {
+            -webkit-border-image: url(img/border.png) 30 30 stretch;
+            /* Safari 3.1 */
+            -o-border-image: url(img/border.png) 30 30 stretch;
+            /* Opera 11 */
+            border-image: url(img/border.png) 30 30 stretch;
+        }
+
+        h1 {
+            text-shadow: 5px 5px 5px #FF0000;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <!-- Image gallery -->
+    <div class="img">
+        <a target="_blank" href="#"><img src="img/nico.jpg" alt="anime" alt="anime"></a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="img">
+        <a target="_blank" href="#"><img src="img/komichi akebi.jpg" alt="anime" alt="anime"></a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="img">
+        <a target="_blank" href="#"><img src="img/Tohru Honda Icon.jpg" alt="anime" alt="anime"></a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="img">
+        <a target="_blank" href="#"><img src="img/yukina.jpg" alt="anime" alt="anime"></a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <!-- CSS Border -->
+    <div class="border">The border-radius property allows you to add rounded corners to elements.</div>
+
+    <p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.
+    </p>
+    <p>The border-image property specifies an image to be used as a border.</p>
+    <div id="round" class="second-border">Here, the image is tiled (repeated) to fill the area.</div>
+    <br>
+    <div id="stretch" class="second-border">Here, the image is stretched to fill the area.</div>
+    <p>Here is the image that is used:</p>
+    <img src="img/border.png">
+
+    <!-- Text Effect -->
+    <h1>Text-shadow effect!</h1>
+    <p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.
+    </p>
+
+</body>
+
+</html>

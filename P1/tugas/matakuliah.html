@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <h3>Form
+            <select onchange="window.location.href=this.value;">
+                <option value="matakuliah.html">Matakuliah</option>
+                <option value="index.html">Siswa</option>
+                <option value="dosen.html">Dosen</option>
+                <option value="transaksi.html">Transaksi</option>
+                <option value="ruang.html">Ruang</option>
+            </select>
+        </h3>
+    </div>
+    <form action="" method="POST" id="myFormId">
+        <div>
+            <div>
+                <label for="kodemk">Kode MK</label>
+                <input type="text" id="kodemk" name="kodemk" value="">
+            </div>
+            <div>
+                <label for="nama">Nama Matkul</label>
+                <input type="text" id="nama" name="nama" value="">
+            </div>
+            <div>
+                <label for="sks">SKS</label>
+                <input type="text" id="sks" name="sks" value="">
+            </div>
+            <div>
+                <label for="jam">Jam</label>
+                <input type="text" id="jam" name="jam" value="">
+            </div>
+            <div>
+                <label for="ruang">Ruang</label>
+                <input type="text" id="ruang" name="ruang" value="">
+            </div>
+            <div class="button">
+                <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+
+    <h3 class="h3-data">Data Matakuliah</h3>
+    <table>
+        <thead>
+            <tr>
+                <th class="number">No.</th>
+                <th>Kode MK</th>
+                <th>Nama Matkul</th>
+                <th>SKS</th>
+                <th>Jam</th>
+                <th>Ruang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>09</td>
+                <td>System Embedded</td>
+                <td>3</td>
+                <td>NULL</td>
+                <td>H-304</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>10</td>
+                <td>Pemrograman Dasar</td>
+                <td>3</td>
+                <td>1-2</td>
+                <td>H-204</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11</td>
+                <td>Interaksi Manusia Komputer</td>
+                <td>3</td>
+                <td>1-2</td>
+                <td>H-204</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>12</td>
+                <td>Bahasa Inggris</td>
+                <td>2</td>
+                <td>7-8</td>
+                <td>II-206</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>13</td>
+                <td>Topik Khusus</td>
+                <td>2</td>
+                <td>5-6</td>
+                <td>H-204</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>14</td>
+                <td>Machine Learning</td>
+                <td>4</td>
+                <td>NULL</td>
+                <td>H-202</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>19</td>
+                <td>Artificial Intelligence</td>
+                <td>2</td>
+                <td>NULL</td>
+                <td>H-203</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

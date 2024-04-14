@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <h3>Form
+            <select onchange="window.location.href=this.value;">
+                <option value="index.html">Siswa</option>
+                <option value="dosen.html">Dosen</option>
+                <option value="matakuliah.html">Matakuliah</option>
+                <option value="transaksi.html">Transaksi</option>
+                <option value="ruang.html">Ruang</option>
+            </select>
+        </h3>
+    </div>
+    <form action="" method="POST" id="myFormId">
+        <div>
+            <div>
+                <label for="nim">NIM</label>
+                <input type="text" id="nim" name="nim" value="">
+            </div>
+            <div>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" value="">
+            </div>
+            <div>
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" value="">
+            </div>
+            <div>
+                <label for="kota">Kota</label>
+                <input type="text" id="kota" name="kota" value="">
+            </div>
+            <div class="button">
+                <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+
+    <h3 class="h3-data">Data Siswa</h3>
+    <table>
+        <thead>
+            <tr>
+                <th class="number">No.</th>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>Kota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Anisa Milasari</td>
+                <td>Melati 22</td>
+                <td>Surabaya</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Budi Dharmawan</td>
+                <td>Arjuna 37</td>
+                <td>Surabaya</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1004</td>
+                <td>Dede Aprillia</td>
+                <td>Anggrek 9</td>
+                <td>Lamongan</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>NULL</td>
+                <td>Ana Coppola</td>
+                <td>Ladang Jagung 14</td>
+                <td>Jakarta</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>1007</td>
+                <td>NULL</td>
+                <td>Warna Bintang 13</td>
+                <td>Bekasi</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>1009</td>
+                <td>NULL</td>
+                <td>Jl. Arjuna 13</td>
+                <td>Surabaya</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

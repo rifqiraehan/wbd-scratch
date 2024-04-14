@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <h3>Form
+            <select onchange="window.location.href=this.value;">
+                <option value="ruang.html">Ruang</option>
+                <option value="index.html">Siswa</option>
+                <option value="dosen.html">Dosen</option>
+                <option value="matakuliah.html">Matakuliah</option>
+                <option value="transaksi.html">Transaksi</option>
+            </select>
+        </h3>
+    </div>
+    <form action="" method="POST" id="myFormId">
+        <div>
+            <div>
+                <label for="kode_ruang">Kode Ruang</label>
+                <input type="text" id="kode_ruang" name="kode_ruang" value="">
+            </div>
+            <div>
+                <label for="nama">Nama Ruang</label>
+                <input type="text" id="nama" name="nama" value="">
+            </div>
+            <div class="button">
+                <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+
+    <h3 class="h3-data">Data Ruang</h3>
+    <table>
+        <thead>
+            <tr>
+                <th class="number">No.</th>
+                <th>Kode Ruang</th>
+                <th>Nama Ruang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>H-304</td>
+                <td>Laboratorium Sistem Analog</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>H-204</td>
+                <td>Laboratorium Sistem Komputer Waktu Nyata</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>H-206</td>
+                <td>Laboratorium Industrial Robotics </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>H-202</td>
+                <td>Laboratorium Komputer Visi dan Grafik </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>H-203</td>
+                <td>Laboratorium Sistem Digital</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

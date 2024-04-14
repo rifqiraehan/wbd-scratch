@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <h3>Form
+            <select onchange="window.location.href=this.value;">
+                <option value="dosen.html">Dosen</option>
+                <option value="index.html">Siswa</option>
+                <option value="matakuliah.html">Matakuliah</option>
+                <option value="transaksi.html">Transaksi</option>
+                <option value="ruang.html">Ruang</option>
+            </select>
+        </h3>
+    </div>
+    <form action="" method="POST" id="myFormId">
+        <div>
+            <div>
+                <label for="nip">NIP</label>
+                <input type="text" id="nip" name="nip" value="">
+            </div>
+            <div>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" value="">
+            </div>
+            <div>
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" value="">
+            </div>
+            <div>
+                <label for="kota">Kota</label>
+                <input type="text" id="kota" name="kota" value="">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" value="">
+            </div>
+            <div>
+                <label for="nohp">No. HP</label>
+                <input type="text" id="nohp" name="nohp" value="">
+            </div>
+            <div class="button">
+                <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+
+    <h3 class="h3-data">Data Dosen</h3>
+    <table>
+        <thead>
+            <tr>
+                <th class="number">No.</th>
+                <th>NIP</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>Kota</th>
+                <th>Email</th>
+                <th>No. HP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>111</td>
+                <td>Bambang Setia</td>
+                <td>Merapi 14</td>
+                <td>Madiun</td>
+                <td>bambang1@gmail.com</td>
+                <td>082126609901</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>112</td>
+                <td>Anang Kunci</td>
+                <td>Garuda 43</td>
+                <td>Blitar</td>
+                <td>anang@gmail.com</td>
+                <td>082126609902</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>113</td>
+                <td>Neli Pisan</td>
+                <td>Mawat 7</td>
+                <td>Malang</td>
+                <td>neli@gmail.com</td>
+                <td>082126609903</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>114</td>
+                <td>Bambang Unik</td>
+                <td>Sepatu 14</td>
+                <td>Bangil</td>
+                <td>bambang1@gmail.com</td>
+                <td>082126609904</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>NULL</td>
+                <td>Budi Setiaji</td>
+                <td>Jl. Kaliurang</td>
+                <td>Yogyakarta</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>117</td>
+                <td>NULL</td>
+                <td>Jl. Dahlia 7</td>
+                <td>Kotamobagu</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>119</td>
+                <td>NULL</td>
+                <td>Jl. Kupang 9</td>
+                <td>Surabaya</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
