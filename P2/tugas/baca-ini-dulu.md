@@ -10,3 +10,6 @@
 menjadi,
 `$conn = mysqli_connect("localhost", "root", "", "baak_pens_2");`
 "root" adalah username host dan "" adalah password host. Sesuaikan dengan preferensi masing-masing.
+
+### Untuk /percobaan
+- Sesuaikan hasil percobaan dengan membuka dan menutup komentar (ctrl + /)
