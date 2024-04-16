@@ -16,3 +16,6 @@ menjadi,
 
 Hasil tugas bisa dilihat di link berikut:
 [Tugas](https://rifqiraehan-db.000webhostapp.com/P2-tugas/siswa)
+
+Link Laporan:
+[Laporan](https://www.dropbox.com/scl/fo/m0i4f5ab28qjmclqya2cf/AE3tOHNjORq24w8YvMVC_Ek?rlkey=mrf19zs5c8hyne2vyrdo9fwch&dl=0)
