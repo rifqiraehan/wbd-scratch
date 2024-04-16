@@ -1,4 +1,11 @@
 
+### Installing
+#### Untuk XAMPP
+- Buat folder baru di `xampp/htdocs` dengan nama terserah (misal: P2), Masuk ke dalam folder yang baru dibuat dan buat 2 folder baru lagi dengan nama `tugas` dan `percobaan`. Tambahkan file lainnya sesuai dengan struktur dan penamaan file pada github.
+
+#### Untuk WAMPP
+- Buat folder baru di `wampp/www` dengan nama terserah (misal: P2), Masuk ke dalam folder yang baru dibuat dan buat 2 folder baru lagi dengan nama `tugas` dan `percobaan`. Tambahkan file lainnya sesuai dengan struktur dan penamaan file pada github.
+
 ### Requirement Wajib
 - Sesuaikan struktur folder P2 sesuai struktur pada repository, jadi ambil semua folder dan file kecuali file `baak_pens_with_not_null_field.sql` dan file ini `baca-ini-dulu.md`. Lalu, samakan juga penamaan filenya.
 
