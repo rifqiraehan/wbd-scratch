@@ -24,3 +24,9 @@ Hasil tugas bisa dilihat di link berikut:
 
 Link Laporan:
 [Laporan](https://www.dropbox.com/scl/fo/m0i4f5ab28qjmclqya2cf/AE3tOHNjORq24w8YvMVC_Ek?rlkey=mrf19zs5c8hyne2vyrdo9fwch&dl=0)
+
+### Referensi Belajar yang juga digunakan pada referensi tugas kali ini:
+- [Youtube Playlist](https://www.youtube.com/playlist?list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6)
+Tonton video dari bagian 11. PHP & MySQL s/d bagian 13. Update, atau tonton semua list videonya dan ikuti tutorialnya biar makin paham materi ini.
+
+- [Desain Sidebar](https://www.w3schools.com/w3css/w3css_sidebar.asp#Collapsible%20Responsive%20Side%20Navigation) Desain navigasi menu berupa sidebar menggunakan model `Slide the Page Content to the Right`
