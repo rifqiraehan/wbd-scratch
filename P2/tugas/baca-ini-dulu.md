@@ -1,5 +1,3 @@
-
-### Installing
 #### Untuk XAMPP
 - Buat folder baru di `xampp/htdocs` dengan nama terserah (misal: P2), Masuk ke dalam folder yang baru dibuat dan buat 2 folder baru lagi dengan nama `tugas` dan `percobaan`. Tambahkan file lainnya sesuai dengan struktur dan penamaan file pada github.
 
