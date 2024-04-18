@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Berbasis Javascript</title>
+</head>
+<body>
+    <h1>Selamat Datang di Situs Kami!</h1>
+    <h3>Sillhkan isi identitas anda</h3><br>
+    <form action="proses.php" method="POST" name="identity">
+        <pre>
+            Nama    : <input type="text" name="nama"><br>
+            Umur    : <input type="text" name="umur"> tahun <br>
+            Email   : <input type="text" name="email"><br>
+            <input type="button" value="Submit" onClick="pesan()">
+        </pre>
+    </form>
+
+
+    <script language="javascript">
+        function pesan() {
+            var cekNama = document.forms[0].elements[0].value;
+            var cekUmur = document.forms[0].elements[1].value;
+            var cekEmail = document.forms[0].elements[2].value;
+
+            if (cekNama.length == 0) {
+                window.alert("Anda belum memasukkan nama Anda");
+            } else if ((cekUmur < 0) || (isNaN(cekUmur)) || (cekUmur.length == 0)) {
+                window.alert("Input umur Anda salah");
+            } else if ((cekEmail.length == 0) || cekEmail.indexOf('@') == -1 || cekEmail.indexOf('.') == -1) {
+                window.alert("Periksa kembali alamat email Anda");
+            } else {
+                document.forms[0].submit();
+                window.alert("Data berhasil disubmit");
+            }
+        }
+    </script>
+
+</body>
+</html>
