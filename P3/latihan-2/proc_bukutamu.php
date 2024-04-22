@@ -17,7 +17,6 @@
     Nama anda: <?= $nama; ?><br>
     Email anda: <?= $email; ?><br>
     Komentar: <?= $komentar; ?>
-    </textarea>
 
 </body>
 </html>
