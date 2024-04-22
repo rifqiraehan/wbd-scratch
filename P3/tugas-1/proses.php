@@ -2,6 +2,7 @@
 require 'functions.php';
 
 $produk = query("SELECT * FROM handphone");
+
 ?>
 
 <!DOCTYPE html>
@@ -50,6 +51,8 @@ $produk = query("SELECT * FROM handphone");
             $diskon = $total_pembayaran * 10 / 100;
             echo "<br>Diskon member: 10%";
             echo "<br>Pembayaran Akhir: Rp " . number_format(($total_pembayaran) - $diskon, 0, ',', '.') . ',-';
+        } else {
+            echo "<br>Pembayaran Akhir: Rp " . number_format($total_pembayaran, 0, ',', '.') . ',-';
         }
         ?>
 
