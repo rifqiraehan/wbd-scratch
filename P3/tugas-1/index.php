@@ -16,7 +16,7 @@ $produk = query("SELECT * FROM handphone");
             margin-bottom: 10px;
         }
 
-        input[type="submit"] {
+        input[type="button"] {
             margin-top: 50px;
             margin-bottom: 20px;
         }
@@ -38,7 +38,7 @@ $produk = query("SELECT * FROM handphone");
         <p>Data Customer</p>
         <div class="input-field">
             <label for="id_customer">ID Customer<span style="margin-left: 25px;">:</span></label>
-            <input type="number" id="id_customer" name="id_customer" required>
+            <input type="text" id="id_customer" name="id_customer" required>
         </div>
         <div class="input-field">
             <label for="nama">Nama<span style="margin-left: 72px;">:</span></label>
@@ -46,21 +46,21 @@ $produk = query("SELECT * FROM handphone");
         </div>
         <div class="input-field">
             <label for="email">Email<span style="margin-left: 72px;">:</span></label>
-            <input type="email" id="email" name="email" required>
+            <input type="text" id="email" name="email" required>
         </div>
         <div class="input-field">
             <label for="alamat">Alamat<span style="margin-left: 61px;">:</span></label>
             <input type="text" id="alamat" name="alamat" required>
         </div>
         <div class="input-field">
-            <label for="member">Member<span style="margin-left: 55px;">:</span></label><br>
+            <label for="affiliate">Member<span style="margin-left: 55px;">:</span></label><br>
             <input type="radio" id="member" name="member" value="Member">
             <label for="member">Member</label><br>
-            <input type="radio" id="bukan" name="bukan" value="Bukan">
+            <input type="radio" id="member" name="member" value="Bukan">
             <label for="bukan">Bukan</label><br>
         </div>
         <div class="input-field">
-            <label for="pembayaran">Pembayaran<span style="margin-left: 25px;">:</span></label><br>
+            <label for="payment">Pembayaran<span style="margin-left: 25px;">:</span></label><br>
             <select name="pembayaran" id="pembayaran">
             <option value="VISA">VISA</option>
             <option value="MasterCard">Master Card</option>
@@ -68,9 +68,24 @@ $produk = query("SELECT * FROM handphone");
             </select>
         </div>
 
-        <input type="submit" value="Proses">
+        <input type="button" value="Proses" onclick="message()">
 
     </form>
+
+    <script lang="text/javascript">
+    function message() {
+        var cekID = document.getElementById("id_customer").value;
+        var cekEmail = document.getElementById("email").value;
+
+        if ((cekID < 0) || (isNaN(cekID)) || (cekID.length == 0)) {
+                window.alert("Input ID Customer salah");
+        } else if ((cekEmail.indexOf('@') == -1) || (cekEmail.length == 0)) {
+                window.alert("Input Email salah");
+        } else {
+            document.querySelector("form").submit();
+        }
+    }
+    </script>
 
 </body>
 </html>
