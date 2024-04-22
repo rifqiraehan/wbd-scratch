@@ -12,7 +12,7 @@ if ($operator == "+") {
     $hasil = $operand_kiri * $operand_kanan;
 } elseif ($operator == "/") {
     $hasil = $operand_kiri / $operand_kanan;
-} elseif ($operator == "%") {
+} else {
     $hasil = $operand_kiri % $operand_kanan;
 }
 
