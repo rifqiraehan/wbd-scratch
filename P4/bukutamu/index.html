@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukutamu untuk database MySQL</title>
+</head>
+<body>
+    <h2>Bukutamu untuk database MySQL</h2>
+    <form action="tambah-data.php" method="POST">
+        <table>
+            <tr>
+                <td>Nama: </td>
+                <td><input type="text" name="nama" id="nama" size="35" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" name="email" id="email" size="35" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Komentar: </td>
+                <td><textarea name="komentar" id="komentar" cols="30" rows="10"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
