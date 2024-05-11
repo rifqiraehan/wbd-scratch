@@ -1,0 +1,20 @@
+.credit {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.form-td {
+    padding: 5px 50px 50px 5px;
+}
+
+button {
+    margin-top: 10px;
+}
